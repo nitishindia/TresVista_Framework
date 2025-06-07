@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <test verbose="2" preserve-order="true" name="Backend API">
+        <classes>
+            <class name="BackendAPI.CreateWorkRequestAPI"/>
+            <class name="BackendAPI.ManageWorkRequestAPI"/>
+            <class name="BackendAPI.FileUploadAPI"/>
+            <class name="BackendAPI.TagManagementAPI"/>
+            <class name="BackendAPI.HomeCardAPI"/>
+            <class name="BackendAPI.CommentsAPIs"/>
+            <class name="BackendAPI.FolderAPIs"/>
+            <class name="BackendAPI.DeliverablesAPI"/>
+            <class name="BackendAPI.ProjectPipelineAPI"/>
+            <class name="BackendAPI.RelationshipManagerAPI"/>
+            <class name="BackendAPI.ActivityAndSubActivityAPI"/>
+            <class name="BackendAPI.CreateOrganizationAPI"/>
+            <class name="BackendAPI.AddRequestorAPI"/>
+            <class name="BackendAPI.CommentsAPIs"/>
+            <class name="BackendAPI.ContactsAPI"/>
+            <class name="BackendAPI.RoleBaseAPI"/>
+            <class name="BackendAPI.AssignContractsDeciderAPIs"/>
+            <class name="BackendAPI.ContractsAPI"/>
+            <class name="BackendAPI.ContractsWorkQueueAPI"/>
+            <class name="BackendAPI.NotificationAPI"/>
+            <class name="BackendAPI.AllocationsAPI"/>
+            <class name="BackendAPI.NotificationAPI"/>
+            <class name="BackendAPI.ReportsAPI"/>
+            <class name="BackendAPI.LoginAwsAPI"/>
+            <class name="BackendAPI.CollaborationAPI"/>
+<!--            <class name="com.glassTests.Requester.RequesterHomeScreenTest"/>-->
+<!--            <class name="com.glassTests.Requester.CreateNewWorkReqTest"/>-->
+<!--            <class name="com.glassTests.Requester.ManageWorkRequest_TileViewTest"/>-->
+<!--            <class name="com.glassTests.Requester.ManageWorkRequest_ListView"/>-->
+<!--            <class name="com.glassTests.Requester.TagManagementTest"/>-->
+<!--            <class name="com.glassTests.Requester.DetailedWorkRequestTest"/>-->
+<!--            <class name="com.glassTests.Requester.ManageWorkRequest_FolderViewTest"/>-->
+<!--            <class name="com.glassTests.Requester.WorkRequest_HistoryTest"/>-->
+<!--            <class name="com.glassTests.Requester.CommentsTest"/>-->
+<!--            <class name="com.glassTests.Requester.DeliverablesTest"/>-->
+<!--            <class name="com.glassTests.Requester.PriorityPipelineTest"/>-->
+<!--            <class name="com.glassTests.Staffer.StafferHomeScreenTest"/>-->
+<!--            <class name="com.glassTests.Staffer.AddRequesterTest"/>-->
+<!--            <class name="com.glassTests.Staffer.ManageRequestorTest"/>-->
+<!--            <class name="com.glassTests.Strategy.StrategyHomeScreenTest"/>-->
+<!--            <class name="com.glassTests.Strategy.CreateContactScreenTest"/>-->
+<!--            <class name="com.glassTests.Strategy.CreateOrganizationTest"/>-->
+<!--            <class name="com.glassTests.Strategy.ManageOrganizationTest"/>-->
+<!--            <class name="com.glassTests.VicePresident.VicePresidentHomeScreenTest"/>-->
+<!--            <class name="com.glassTests.Analyst.AnalystHomeScreenTest"/>-->
+<!--            <class name="com.glassTests.Associate.AssociateHomeScreenTest"/>-->
+<!--            <class name="com.glassTests.ContractDecider.ContractDeciderHomeScreenTest"/>-->
+<!--            <class name="com.glassTests.RelationshipManager.RelationshipManagerHomeScreenTest"/>-->
+<!--            <class name="com.glassTests.Strategy.AllocationScreenTest"/>-->
+<!--            <class name="com.glassTests.Strategy.ContractScreenTest"/>-->
+<!--            <class name="com.glassTests.Requester.ActivityAndSubActivityTest"/>-->
+<!--            <class name="com.glassTests.DiscoveryServicesTest"/>-->
+<!--            <class name="com.glassTests.VicePresident.ReportsUtilizationScreenTest"/>-->
+<!--            <class name="com.glassTests.VicePresident.CreateWorkRequestForVPTest"/>-->
+<!--            <class name="com.glassTests.Strategy.LoginAwsUITest"/>-->
+<!--            <class name="com.glassTests.Strategy.LoginSSOUITest"/>-->
+        </classes>
+    </test>
+</suite>
